@@ -65,7 +65,7 @@ router.post('/login',
             if (!errors.isEmpty()) {
                 return res.status(422).json({
                     errors: errors.array(),
-                    message: 'Некоректные данные при входк в систему'
+                    message: 'Некоректные данные при входе в систему'
                 })
             }
 
